@@ -4,7 +4,44 @@ body {
 	font-family: sans-serif;
 }
 
-#container {
+#root {
 	display: flex;
 	justify-content: center;
+}
+
+.todoListMain .header input {
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #fff;
+	width: 165px;
+}
+
+.todoListMain .header button {
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px;
+	margin-right: 0px;
+	background-color: #0066ff;
+	color: #fff;
+	border: 2px solid #0066ff;
+}
+
+.todoListMain .header button:hover {
+	cursor: pointer;
+	background-color: #003399;
+	border: 2px solid #003399;
+}
+
+.todoListMain .theList {
+	list-style: none;
+	padding-left: 0;
+	width: 250px;
+}
+
+.todoListMain .theList li {
+	color: #333;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px;
+	margin-bottom: 5px;
+	border-radius: 5px;
 }
